@@ -2,19 +2,6 @@
 	box-sizing: border-box;
 }
 
-#container {
-	/*background: steelblue;*/
-	width: 360px;
-	margin: 100px auto;
-	background: #f7f7f7;
-	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
-}
-
-.done {
-	color: gray;
-	text-decoration: line-through;
-}
-
 body {
 	font-family: Roboto;
 	background: #3E5151;  /* fallback for old browsers */
@@ -84,4 +71,17 @@ input:focus{
 
 .fa-plus {
 	float: right;
+}
+
+#container {
+	/*background: steelblue;*/
+	width: 360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.done {
+	color: gray;
+	text-decoration: line-through;
 }
